@@ -1,8 +1,8 @@
-FROM alpine:3.15.3
+FROM alpine:3.17
 
 LABEL maintainer="Laspavel <laspavel@gmail.com>"
 
-ENV SQUID_VERSION=5.2-r0 \
+ENV SQUID_VERSION=5.7-r0 \
     CACHE_DIR=/var/spool/squid \
     LOG_DIR=/var/log/squid
 
